@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+	</head>
+		<meta charset="utf-8">
+		<title>Aaron Phalphouvong</title>
+		<link rel="stylesheet" href="main.css">
+		<link rel="icon" href="images/rocket.png">
+		<style>
+			.background{
+				background-image: url("images/home/IMG_5088.JPG");
+				background-size: cover;
+				padding: 1% 0% 0% 0%;
+				margin: 0% 0% 0% 0%;
+				height: 100vh;
+			}
+
+			.mainLoad {
+				padding: 1% 5% 15% 3%;
+				margin: 3% 0% 0% 5%;
+				font-size: 200%;
+			}
+
+
+			.welcome {
+				margin: 0px 0px 0px 0px;
+				padding: 3% 10% 20% 10%;
+				background-color: white;
+				box-shadow: 0px 10px 10px 0px gray;
+			}
+
+			.about {
+				margin: 0px 0px 0px 0px;
+				padding: 3% 10% 20% 10%;
+				background-color: gray;
+			}
+
+
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+  // Add smooth scrolling to all links
+  			$("a").on('click', function(event) {
+
+    			if (this.hash !== "") {
+
+      			event.preventDefault();
+
+      			var hash = this.hash;
+
+      			$('html, body').animate({
+        			scrollTop: $(hash).offset().top
+      			}, 800, function(){
+        			window.location.hash = hash;
+      			});
+    		}
+  		});
+		});
+	</script>
+	<div class="background">
+		<header>
+			<div class="nav">
+				<a href="index.html">Home</a>
+				<a href="#aboutMe">About Me</a>
+				<a href="projects.html">Projects</a>
+				<a href="photo.html">Photography</a>
+				<a href="services">My Services</a>
+			</div>
+		</header>
+
+		<div class="mainLoad" style="color: white;">
+			<h1 style="font-weight: bold;">A A R O N<br><b>P H A L P H O U V O N G</b></h1>
+			<p id="short">programmer. photographer. computer enthusiast.</p>
+		</div>
+	</div>
+
+	<body>
+		<div class="welcome">
+			<h2>Welcome to My Website</h2>
+			<p style="text-indent: 5%;">Welcome to my website!</p>
+		</div>
+		<div class="about">
+			<h2 id="aboutMe">About Me</h2>
+			<p id="mainAbout" style="text-indent: 5%;">Hi, my name is Aaron Phalphouvong. I am an aspiring programmer and photographer. </p>
+		</div>
+	</body>
+
+	<footer>
+		<div class="social">
+			<a href="https://github.com/aaronphal"><img src="images/social/Github.png" width="5%" height="5%"></a>
+			<a href="https://www.instagram.com/aaronphal/"><img src="images/social/Instagram.png" width="5%" height="5%"></a>
+			<a href="https://www.reddit.com/user/aaronphal/"><img src="images/social/Reddit.png" width="5%" height="5%"></a>
+			<a href="https://www.snapchat.com/add/megazmosh/"><img src="images/social/Snapchat.png" width="5%" height="5%"></a>
+			<a href="https://www.youtube.com/user/Megazmosh"><img src="images/social/YouTube.png" width="5%" height="5%"></a>
+		</div>
+		<p>&copy Aaron Phalphouvong 2018</p>
+	</footer>
+</html>
