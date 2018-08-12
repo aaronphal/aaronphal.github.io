@@ -24,8 +24,8 @@ h2 {
 	margin:  1% 5% 0% 5%;
 	position: top;
 	text-align: center;
-	color: white;
-	background-color: Gray;
+	//color: white;
+	background-color: #0b4f6c;
 	border-radius: 10px 10px 10px 10px;
 	text-decoration: none;
 }
@@ -34,7 +34,7 @@ a {
 	text-decoration: none;
 }
 
-.nav a{
+.nav a, .nav a:visited {
 	font-family: Gravity-Bold;
 	color: white;
 	text-decoration: none;
@@ -47,7 +47,7 @@ a {
 
 .nav a:hover {
 	text-decoration: none;
-	color: black;
+	color: #01baef;
 }
 
 
@@ -57,9 +57,10 @@ body {
 }
 
 footer {
-	backcolor-color: #E1E1E1;
+	background-color: #0b4f6c;
 	padding: 5% 5% 3% 5%;
 	text-align: center;
+	color: white;
 }
 
 .navBot {
